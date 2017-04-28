@@ -1,0 +1,31 @@
+# Initial Grid Size
+5 5
+
+# Default TestCase 1
+1 2 N
+LMLMLMLMM
+
+# Default TestCase 2
+3 3 E
+MMRMMRMRRM
+
+# Rover at bottom corner and moving down
+0 0 S
+M
+
+# Rover keeps on moving north
+0 0 N
+MMMMMMMMMMMM
+
+# Invalid inputs like data corruption while sending the data
+-1 0 E
+LMMRRMLM
+
+# Not one of the 4 Directions
+1 0 Z
+LMMRRMLM
+
+# General Test Case
+1 1 W
+MLRMLRRMMMMMLR
+
